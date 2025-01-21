@@ -44,7 +44,14 @@ spring.datasource.password=your_password
 #### 3.Run the Backend (Spring Boot):
 Use Either Eclipse or IntelliJ IDEA CE or any preferred IDE for running the backend prior to running the frontend
 
-#### 4.Run the Frontend (Spring Boot):
+#### 4.Manually import the CSV data:
+After running the backend program, Go and check the database. You will notice two tables been created namely,
+- **jobcarddata**
+- **jobfillformdata**
+  
+Manually insert the data from **Job_Card_Details.CSV** into the **jobcarddata** (One time process). This will ensure that you have job data readily available for the display.
+
+#### 5.Run the Frontend (Spring Boot):
 To start the frontend application:
 ```bash
 cd jobPortal
