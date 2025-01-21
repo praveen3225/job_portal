@@ -80,3 +80,13 @@ npm run dev
    ```
 5. **Create a new Pull Request.**
 
+
+
+## License
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
